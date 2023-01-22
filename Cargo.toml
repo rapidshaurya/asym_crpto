@@ -1,5 +1,5 @@
 [package]
-name = "asyn_crpto"
+name = "asym_crpto"
 version = "0.1.0"
 edition = "2021"
 features=["pem"]
