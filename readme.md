@@ -8,7 +8,19 @@ cargo run --example encrypt
 ```
 - For decrypt data
 ```
-cargo run --example decrypt
+cargo run --example encrypt
+```
+## How to create openssl file for this project
+- Private key generate
+```
+openssl genrsa -out key.pem 2048
+openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in key.pem -out private.pem
+openssl asn1parse -in private.pem -out private_key.der
+```
+- pub key generate
+```
+openssl pkey -in private.pem -pubout -out pubkey.pem
+openssl asn1parse -in pubkey.pem -out pub_key.der
 ```
 #### Note
 - Please add pub_key.der and private_key.der outside the src folder
