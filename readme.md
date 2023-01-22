@@ -1,4 +1,4 @@
-# Aysm Crpto
+# Asym Crpto
 ## This project will help you to encrypt and decrypt data using asymmetic crptography
 
 ## Run Code
