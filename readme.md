@@ -8,7 +8,7 @@ cargo run --example encrypt
 ```
 - For decrypt data
 ```
-cargo run --example encrypt
+cargo run --example decrypt
 ```
 ## How to create openssl file for this project
 - Private key generate
