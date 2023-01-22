@@ -8,7 +8,7 @@ cargo run --example encrypt
 ```
 - For decrypt data
 ```
-cargo run --example encrypt
+cargo run --example decrypt
 ```
 #### Note
 - Please add pub_key.der and private_key.der outside the src folder
